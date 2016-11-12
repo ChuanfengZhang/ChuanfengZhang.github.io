@@ -6,21 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>post | 张传峰的博客</title>
+  <title>域名不加www无法访问? | 张传峰的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
-答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。">
+答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：">
 <meta property="og:type" content="article">
-<meta property="og:title" content="post">
+<meta property="og:title" content="域名不加www无法访问?">
 <meta property="og:url" content="http://yoursite.com/2016/11/12/域名不加www无法访问">
 <meta property="og:site_name" content="张传峰的博客">
 <meta property="og:description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
-答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。">
-<meta property="og:updated_time" content="2016-11-12T12:28:20.000Z">
+答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：">
+<meta property="og:updated_time" content="2016-11-12T12:33:07.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="post">
+<meta name="twitter:title" content="域名不加www无法访问?">
 <meta name="twitter:description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
-答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。">
+答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：">
   
     <link rel="alternative" href="/atom.xml" title="张传峰的博客" type="application/atom+xml">
   
@@ -162,7 +162,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      post
+      域名不加www无法访问?
     </h1>
   
 
@@ -171,9 +171,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>问：我的网站<a href="www.zhangchuanfeng.me">www.zhangchuanfeng.me</a>，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？</p>
-<p>答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。<br><a id="more"></a><br>操作步骤：  </p>
+<p>答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。<br>操作步骤：<br><a id="more"></a>  </p>
 <ol>
-<li>登录管理中心，点业务管理&gt;域名服务，找到相关的域名，点管理，然后点　dns解析管理，　点　增加ip,</li>
+<li>登录管理中心，点 业务管理&gt;域名服务，找到相关的域名，点 管理，然后点 dns解析管理,点　增加ip,</li>
 </ol>
 <p>添加: A 记录<br>主机名:    填入 @<br>对应值:    填入你的虚拟主机ip (在　虚拟主机管理中心可以查到）<br>(注意： 这一步一般已经由我们的程序自动完成了，如果您发现在：dns解析管理中 有一个@记录，指向了你的ip,你就可以跳过这一步了）。</p>
 <ol>
@@ -243,7 +243,7 @@
 
 <section id="comments">
   <!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="post-域名不加www无法访问?" data-title="post" data-url="http://yoursite.com/2016/11/12/域名不加www无法访问?/"></div>
+	<div class="ds-thread" data-thread-key="post-域名不加www无法访问?" data-title="域名不加www无法访问?" data-url="http://yoursite.com/2016/11/12/域名不加www无法访问?/"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
