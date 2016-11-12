@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="张传峰的博客">
 <meta property="og:description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
 答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：">
-<meta property="og:updated_time" content="2016-11-12T12:33:07.000Z">
+<meta property="og:updated_time" content="2016-11-12T12:52:35.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="域名不加www无法访问?">
 <meta name="twitter:description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
@@ -173,11 +173,13 @@
         <p>问：我的网站<a href="www.zhangchuanfeng.me">www.zhangchuanfeng.me</a>，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？</p>
 <p>答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。<br>操作步骤：<br><a id="more"></a>  </p>
 <ol>
-<li>登录管理中心，点 业务管理&gt;域名服务，找到相关的域名，点 管理，然后点 dns解析管理,点　增加ip,</li>
-</ol>
-<p>添加: A 记录<br>主机名:    填入 @<br>对应值:    填入你的虚拟主机ip (在　虚拟主机管理中心可以查到）<br>(注意： 这一步一般已经由我们的程序自动完成了，如果您发现在：dns解析管理中 有一个@记录，指向了你的ip,你就可以跳过这一步了）。</p>
-<ol>
-<li>点业务管理&gt;虚拟主机管理　<br>在域名绑定一栏　输入您想绑定的域名zhangchuanfeng.me,然后点添加就行了。</li>
+<li><p>登录管理中心，点 业务管理&gt;域名服务，找到相关的域名，点 管理，然后点 dns解析管理,点　增加ip,</p>
+<p>添加: A 记录<br>主机名:    填入 @<br>对应值:    填入你的虚拟主机ip (在　虚拟主机管理中心可以查到）<br>(注意： 这一步一般已经由我们的程序自动完成了，如果您发现在：dns解析管理中 有一个@记录，指向了你的ip,你就可以跳过这一步了）。   </p>
+<p>​</p>
+</li>
+<li><p>点业务管理&gt;虚拟主机管理　</p>
+<p>在域名绑定一栏　输入您想绑定的域名zhangchuanfeng.me,然后点添加就行了。</p>
+</li>
 </ol>
 <p>这样，您就可以直接输入zhangchuanfeng.me打开你的网站了。</p>
 <p>如果你想绑定其他的域名，其步骤也是一样的。</p>
@@ -204,6 +206,15 @@
 
   
 <nav id="article-nav">
+  
+    <a href="/2016/11/12/将hexo博客同时托管到 github 和 coding/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          将hexo博客同时托管到 github 和 coding
+        
+      </div>
+    </a>
   
   
     <a href="/2016/11/10/我的博客建好啦！/" id="article-nav-older" class="article-nav-link-wrap">
@@ -319,7 +330,7 @@ var duoshuoQuery = {short_name:"chuckzhang"};
     
     	<section class="tools-section tools-section-tag">
     			<div class="widget tagcloud" id="js-tagcloud">
-    				<a href="/tags/建站/" style="font-size: 10px;">建站</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+    				<a href="/tags/建站/" style="font-size: 20px;">建站</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
     			</div>
     	</section>
     
