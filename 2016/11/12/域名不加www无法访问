@@ -9,30 +9,18 @@
   <title>post | 张传峰的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
-答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：  
-
-登录管理中心，点业务管理&amp;gt;域名服务，找到相关的域名，点管理，然后点　dns解析管理，　点　增加ip,
-
-添加:">
+答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="post">
 <meta property="og:url" content="http://yoursite.com/2016/11/12/域名不加www无法访问">
 <meta property="og:site_name" content="张传峰的博客">
 <meta property="og:description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
-答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：  
-
-登录管理中心，点业务管理&amp;gt;域名服务，找到相关的域名，点管理，然后点　dns解析管理，　点　增加ip,
-
-添加:">
-<meta property="og:updated_time" content="2016-11-12T12:25:22.000Z">
+答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。">
+<meta property="og:updated_time" content="2016-11-12T12:28:20.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="post">
 <meta name="twitter:description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
-答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：  
-
-登录管理中心，点业务管理&amp;gt;域名服务，找到相关的域名，点管理，然后点　dns解析管理，　点　增加ip,
-
-添加:">
+答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。">
   
     <link rel="alternative" href="/atom.xml" title="张传峰的博客" type="application/atom+xml">
   
@@ -183,7 +171,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>问：我的网站<a href="www.zhangchuanfeng.me">www.zhangchuanfeng.me</a>，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？</p>
-<p>答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。<br>操作步骤：  </p>
+<p>答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。<br><a id="more"></a><br>操作步骤：  </p>
 <ol>
 <li>登录管理中心，点业务管理&gt;域名服务，找到相关的域名，点管理，然后点　dns解析管理，　点　增加ip,</li>
 </ol>
