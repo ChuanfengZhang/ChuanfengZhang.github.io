@@ -6,18 +6,33 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>张传峰的博客</title>
+  <title>post | 张传峰的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="PORcrJ8KBL">
-<meta property="og:type" content="website">
-<meta property="og:title" content="张传峰的博客">
-<meta property="og:url" content="http://yoursite.com/baidu_verify_PORcrJ8KBL.html">
+  <meta name="description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
+答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：  
+
+登录管理中心，点业务管理&amp;gt;域名服务，找到相关的域名，点管理，然后点　dns解析管理，　点　增加ip,
+
+添加:">
+<meta property="og:type" content="article">
+<meta property="og:title" content="post">
+<meta property="og:url" content="http://yoursite.com/2016/11/12/域名不加www无法访问">
 <meta property="og:site_name" content="张传峰的博客">
-<meta property="og:description" content="PORcrJ8KBL">
-<meta property="og:updated_time" content="2016-11-11T05:40:24.000Z">
+<meta property="og:description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
+答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：  
+
+登录管理中心，点业务管理&amp;gt;域名服务，找到相关的域名，点管理，然后点　dns解析管理，　点　增加ip,
+
+添加:">
+<meta property="og:updated_time" content="2016-11-12T12:25:22.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="张传峰的博客">
-<meta name="twitter:description" content="PORcrJ8KBL">
+<meta name="twitter:title" content="post">
+<meta name="twitter:description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
+答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：  
+
+登录管理中心，点业务管理&amp;gt;域名服务，找到相关的域名，点管理，然后点　dns解析管理，　点　增加ip,
+
+添加:">
   
     <link rel="alternative" href="/atom.xml" title="张传峰的博客" type="application/atom+xml">
   
@@ -149,23 +164,49 @@
 </nav>
 
       <div class="body-wrap">
-        <article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
+        <article id="post-域名不加www无法访问?" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      post
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        PORcrJ8KBL
+        <p>问：我的网站<a href="www.zhangchuanfeng.me">www.zhangchuanfeng.me</a>，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？</p>
+<p>答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。<br>操作步骤：  </p>
+<ol>
+<li>登录管理中心，点业务管理&gt;域名服务，找到相关的域名，点管理，然后点　dns解析管理，　点　增加ip,</li>
+</ol>
+<p>添加: A 记录<br>主机名:    填入 @<br>对应值:    填入你的虚拟主机ip (在　虚拟主机管理中心可以查到）<br>(注意： 这一步一般已经由我们的程序自动完成了，如果您发现在：dns解析管理中 有一个@记录，指向了你的ip,你就可以跳过这一步了）。</p>
+<ol>
+<li>点业务管理&gt;虚拟主机管理　<br>在域名绑定一栏　输入您想绑定的域名zhangchuanfeng.me,然后点添加就行了。</li>
+</ol>
+<p>这样，您就可以直接输入zhangchuanfeng.me打开你的网站了。</p>
+<p>如果你想绑定其他的域名，其步骤也是一样的。</p>
+
       
     </div>
     <div class="article-info article-info-index">
       
-      <a href="/baidu_verify_PORcrJ8KBL.html" class="archive-article-date">
-  	<time datetime="2016-11-11T05:40:47.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-11-11</time>
+      <a href="/2016/11/12/域名不加www无法访问?/" class="archive-article-date">
+  	<time datetime="2016-11-12T12:18:47.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-11-12</time>
 </a>
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/建站/">建站</a></li></ul>
+	</div>
+
       
 
       <div class="clearfix"></div>
@@ -174,6 +215,16 @@
 </article>
 
   
+<nav id="article-nav">
+  
+  
+    <a href="/2016/11/10/我的博客建好啦！/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">我的博客建好啦！</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 
 
@@ -204,7 +255,7 @@
 
 <section id="comments">
   <!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="page-undefined" data-title="" data-url="http://yoursite.com/baidu_verify_PORcrJ8KBL.html"></div>
+	<div class="ds-thread" data-thread-key="post-域名不加www无法访问?" data-title="post" data-url="http://yoursite.com/2016/11/12/域名不加www无法访问?/"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -242,7 +293,7 @@ var duoshuoQuery = {short_name:"chuckzhang"};
 		mathjax: false,
 		animate: true,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
@@ -280,7 +331,7 @@ var duoshuoQuery = {short_name:"chuckzhang"};
     
     	<section class="tools-section tools-section-tag">
     			<div class="widget tagcloud" id="js-tagcloud">
-    				<a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+    				<a href="/tags/建站/" style="font-size: 10px;">建站</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
     			</div>
     	</section>
     
