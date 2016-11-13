@@ -5,14 +5,14 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://yoursite.com">
+  <link rel="dns-prefetch" href="http://zhangchuanfeng.me">
   <title>域名不加www无法访问? | 张传峰的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
 答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="域名不加www无法访问?">
-<meta property="og:url" content="http://yoursite.com/2016/11/12/域名不加www无法访问">
+<meta property="og:url" content="http://zhangchuanfeng.me/2016/11/12/域名不加www无法访问">
 <meta property="og:site_name" content="张传峰的博客">
 <meta property="og:description" content="问：我的网站www.zhangchuanfeng.me，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？
 答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。操作步骤：">
@@ -254,7 +254,7 @@
 
 <section id="comments">
   <!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="post-域名不加www无法访问?" data-title="域名不加www无法访问?" data-url="http://yoursite.com/2016/11/12/域名不加www无法访问?/"></div>
+	<div class="ds-thread" data-thread-key="post-域名不加www无法访问?" data-title="域名不加www无法访问?" data-url="http://zhangchuanfeng.me/2016/11/12/域名不加www无法访问?/"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">

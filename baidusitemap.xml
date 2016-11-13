@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://zhangchuanfeng.me/2016/11/12/%E5%B0%86hexo%E5%8D%9A%E5%AE%A2%E5%90%8C%E6%97%B6%E6%89%98%E7%AE%A1%E5%88%B0%20github%20%E5%92%8C%20coding/</loc>
+    <lastmod>2016-11-12T13:39:16.000Z</lastmod>
+    <data>
+        <display>
+        <title>将hexo博客同时托管到 github 和 coding</title>
+        <pubTime>2016-11-12T13:01:20.000Z</pubTime>
+        
+        <tag>建站</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhangchuanfeng.me/2016/11/12/%E5%9F%9F%E5%90%8D%E4%B8%8D%E5%8A%A0www%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE?/</loc>
+    <lastmod>2016-11-12T12:52:35.000Z</lastmod>
+    <data>
+        <display>
+        <title>域名不加www无法访问?</title>
+        <pubTime>2016-11-12T12:18:47.000Z</pubTime>
+        
+        <tag>建站</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhangchuanfeng.me/2016/11/10/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%BB%BA%E5%A5%BD%E5%95%A6%EF%BC%81/</loc>
+    <lastmod>2016-11-11T03:26:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>我的博客建好啦！</title>
+        <pubTime>2016-11-10T11:27:23.000Z</pubTime>
+        
+        <tag>随笔</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhangchuanfeng.me/2016/11/10/hello-world/</loc>
+    <lastmod>2016-11-10T11:24:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2016-11-10T09:49:46.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
