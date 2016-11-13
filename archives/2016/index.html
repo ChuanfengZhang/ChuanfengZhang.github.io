@@ -165,6 +165,33 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       	<div class="article-meta">
+	      	<a href="/2016/11/13/域名申请与解析/" class="archive-article-date">
+  	<time datetime="2016-11-13T04:10:36.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-11-13</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2016/11/13/域名申请与解析/">域名申请与解析</a>
+    </h1>
+  
+
+        <div class="article-info info-on-right">
+          
+          
+
+        </div>
+        <div class="clearfix"></div>
+    </header>
+  </div>
+</article>
+  
+    
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
 	      	<a href="/2016/11/12/将hexo博客同时托管到 github 和 coding/" class="archive-article-date">
   	<time datetime="2016-11-12T13:01:20.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-11-12</time>
 </a>
@@ -325,7 +352,13 @@
 <script>
 (function(){
     var bp = document.createElement('script');
-    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
     var s = document.getElementsByTagName("script")[0];
     s.parentNode.insertBefore(bp, s);
 })();
