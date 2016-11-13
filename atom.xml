@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>张传峰的博客</title>
+  <subtitle>一直在路上</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://zhangchuanfeng.me/"/>
+  <updated>2016-11-13T09:42:23.000Z</updated>
+  <id>http://zhangchuanfeng.me/</id>
+  
+  <author>
+    <name>张传峰</name>
+    <email>wfhtzcf@gmail.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>腾讯公益404页面无法返回自己首页的解决办法</title>
+    <link href="http://zhangchuanfeng.me/2016/11/13/%E8%85%BE%E8%AE%AF%E5%85%AC%E7%9B%8A404%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%94%E5%9B%9E%E8%87%AA%E5%B7%B1%E9%A6%96%E9%A1%B5%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>http://zhangchuanfeng.me/2016/11/13/腾讯公益404页面无法返回自己首页的解决办法/</id>
+    <published>2016-11-13T09:23:27.000Z</published>
+    <updated>2016-11-13T09:42:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>腾讯公益404页面是个非常好的想法，<a href="http://www.qq.com/404/" target="_blank" rel="external">官方页面</a>说明如下：<br><img src="http://ww4.sinaimg.cn/large/006y8lVajw1f9qlzvnua2j30rb0kpq6c.jpg" alt=""><br>更人性化的一点是，其提供“返回腾讯网”超链接的可定制化能力，只需要修改两个参数即可：<br><img src="http://ww2.sinaimg.cn/large/006y8lVajw1f9qm1cf8nwj30qu0k4tbl.jpg" alt=""><br>然而博主按照说明修改了两个参数，超链接文字却没有发生改变——依然是“返回腾讯网”，经一番搜索，终于找到了解决方法：<br><a id="more"></a><br>复制<a href="https://github.com/songjinzhong/404html/blob/master/404.html" target="_blank" rel="external">该页面</a>提供的代码到本地，然后修改第11行和第113行的参数为你的即可。效果如下：<br><img src="http://ww1.sinaimg.cn/large/006y8lVajw1f9qm85vlimj30ul0le78e.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;腾讯公益404页面是个非常好的想法，&lt;a href=&quot;http://www.qq.com/404/&quot;&gt;官方页面&lt;/a&gt;说明如下：&lt;br&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/006y8lVajw1f9qlzvnua2j30rb0kpq6c.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;更人性化的一点是，其提供“返回腾讯网”超链接的可定制化能力，只需要修改两个参数即可：&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/large/006y8lVajw1f9qm1cf8nwj30qu0k4tbl.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;然而博主按照说明修改了两个参数，超链接文字却没有发生改变——依然是“返回腾讯网”，经一番搜索，终于找到了解决方法：&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://zhangchuanfeng.me/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>域名申请与解析</title>
+    <link href="http://zhangchuanfeng.me/2016/11/13/%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E4%B8%8E%E8%A7%A3%E6%9E%90/"/>
+    <id>http://zhangchuanfeng.me/2016/11/13/域名申请与解析/</id>
+    <published>2016-11-13T04:10:36.000Z</published>
+    <updated>2016-11-13T07:10:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="域名申请与解析"><a href="#域名申请与解析" class="headerlink" title="域名申请与解析"></a>域名申请与解析</h1><h2 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h2><p>个人博客的网址是 github.io 一类的网址未免普通（Bigger 不够），而博主想正好借这次机会体验一下购买域名的流程，所以就开始选服务商啦！<br><a id="more"></a></p>
+<h2 id="域名服务商的选择"><a href="#域名服务商的选择" class="headerlink" title="域名服务商的选择"></a>域名服务商的选择</h2><p>godaddy 口碑不错，推荐的人挺多，博主刚开始在上面选择好了域名，到了结算时，发现还有 WhoisGuard （涉及域名所有人的隐私）需要考虑，而 godaddy 一年的费用要70￥，博主又去选别的服务商了（学生党…）去知乎转了一圈发现 namecheap 口碑也不错，而且<a href="https://www.domcomp.com/?refcode=582684121300007f36f19420" target="_blank" rel="external">domcomp</a> 还有返利，于是就选择了它。</p>
+<h2 id="域名申请步骤"><a href="#域名申请步骤" class="headerlink" title="域名申请步骤"></a>域名申请步骤</h2><p>首先去<a href="https://www.domcomp.com/?refcode=582684121300007f36f19420" target="_blank" rel="external">domcomp</a> </p>
+<p><img src="http://ww4.sinaimg.cn/large/006y8lVajw1f9qb7umgf0j312i0ez77u.jpg" alt=""></p>
+<p>在列表中选择 <em>Namecheap</em>，跳转到 Namecheap 主页，然后在搜索框中输入自己想要的域名（可不带后缀）</p>
+<p><img src="http://ww2.sinaimg.cn/large/006y8lVajw1f9qbayg3wbj312h0dhjz4.jpg" alt=""></p>
+<p>点击 <em>Search</em>，可以看到各种不同后缀的域名搜索结果</p>
+<p><img src="http://ww3.sinaimg.cn/large/006y8lVajw1f9qbctqr1fj30s80m3dio.jpg" alt=""></p>
+<p>选择一个自己满意的，点击灰色的购物车图标即可添加到购物车（关于价格，博主购买一年期，价格就是黑色字体的价格），然后查看购物车</p>
+<p><img src="http://ww4.sinaimg.cn/large/006y8lVajw1f9qbgdjgsqj31060fhwhn.jpg" alt=""></p>
+<p>可以看到购买当前域名的价格（部分域名包含<a href="https://www.namecheap.com/legal/domains/icann-fee.aspx" target="_blank" rel="external">ICANN fee</a>），注意 Namecheap 送免费的 WhoisGuard ！好良心有木有！确认好了之后就可以点击右侧的 <em>Confirm Order</em> ，进入付款页面</p>
+<p><img src="http://ww1.sinaimg.cn/large/006y8lVajw1f9qbk7xu54j31270icwgy.jpg" alt=""></p>
+<p>付款方式选方便自己的（PayPal 支持银联袄！）</p>
+<p>下方是账单地址，这个根据自己的情况填就可以，博主就不贴出来了</p>
+<p><strong>注意</strong> 下方的续期选项，如果到期后不想续期就把下面的对勾<em>取消</em>掉</p>
+<p><img src="http://ww1.sinaimg.cn/large/006y8lVajw1f9qbmqknxdj30sh0iftan.jpg" alt=""></p>
+<p>确认信息无误，点击 <em>Continue</em>，进入付款页面。付款完成，等待 Namecheap 确认完成后即可进入控制台管理自己的域名。</p>
+<h2 id="域名管理"><a href="#域名管理" class="headerlink" title="域名管理"></a>域名管理</h2><p><img src="http://ww3.sinaimg.cn/large/006y8lVajw1f9qbp55v72j311j0ejjtm.jpg" alt=""></p>
+<p>点击 <em>MANAGE</em>，看看到如下界面</p>
+<p><img src="http://ww3.sinaimg.cn/large/006y8lVajw1f9qbqqjtw9j312k0m20vs.jpg" alt=""></p>
+<p>博主选择了国内的 DNSPod 免费域名解析服务，可以很方便得设置国内国外分别走不同线路，推荐您跟我一样进行设置。</p>
+<p>在<em>NAMESERVERS</em>处选择<em>Custom DNS</em> ，然后填入以下两个 DNS： f1g1ns1.dnspod.net 和  f1g1ns2.dnspod.net 。填好后，点击该部分右上角的对勾保存设置。</p>
+<h2 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h2><h3 id="DNSPod-的设置"><a href="#DNSPod-的设置" class="headerlink" title="DNSPod 的设置"></a>DNSPod 的设置</h3><p>到 <a href="www.dnspod.cn">DNSPod</a> 注册并登录（可直接使用 QQ 账号登录），然后点击左侧的<em>域名解析</em>，再点击<em>添加域名</em></p>
+<p><img src="http://ww2.sinaimg.cn/large/006y8lVajw1f9qc5q9e7fj30z40ch0wg.jpg" alt=""></p>
+<p>输入你注册的域名，点击确定后系统会自动扫描已有 DNS 记录</p>
+<p><img src="http://ww4.sinaimg.cn/large/006y8lVajw1f9qc796ks5j30mg0by3zd.jpg" alt=""></p>
+<p>点击<em>添加记录</em> </p>
+<p><img src="http://ww2.sinaimg.cn/large/006y8lVajw1f9qc9bhmeyj30m90a80u2.jpg" alt=""></p>
+<p>鼠标每移动到每一项均有说明。</p>
+<blockquote>
+<p>如果只添加了 @ 的记录，那么别人就无法通过 www.yoursite.com 访问你的网站</p>
+<p><em>记录值</em>为你要定向到的地址，比如我想别人在访问我的域名时获取我的 github pages 上的内容，所以<em>记录值</em> 处应该填 ChuanfengZhang.github.io.</p>
+<p>同样也给 coding 添加记录</p>
+</blockquote>
+<p><strong>github pages 的<em>线路类型选国外</em>，这样国外的网友访问你的域名时会解析到 github，比 coding 速度更快</strong></p>
+<p>设置好了以后我们需要分别到 github 和 coding 设置。</p>
+<h3 id="github-的设置"><a href="#github-的设置" class="headerlink" title="github 的设置"></a>github 的设置</h3><p>进入到 github 上你的博客仓库，点击<em>Create new file</em> 在建立一个名为<strong>CNAME</strong>的文件（文件名大写），文件内容为你的域名。</p>
+<h3 id="coding-的设置"><a href="#coding-的设置" class="headerlink" title="coding 的设置"></a>coding 的设置</h3><p>coding 设置相对来说简单些，只需在自定义域名输入框输入你的域名，点击添加即可</p>
+<p><img src="http://ww4.sinaimg.cn/large/006y8lVajw1f9qcogtv88j30y30hm420.jpg" alt=""></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>至此，我们的域名申请和解析工作就完成了，访问你的域名看能不能显示出你的博客呢？</p>
+<p><img src="http://ww1.sinaimg.cn/large/006y8lVajw1f9qcqub2kpj312q0k3n0x.jpg" alt=""></p>
+<p>如果你在这个过程中遇到了什么问题或者有什么疑问，欢迎在评论中写出或通过其他方式联系我:-)</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;域名申请与解析&quot;&gt;&lt;a href=&quot;#域名申请与解析&quot; class=&quot;headerlink&quot; title=&quot;域名申请与解析&quot;&gt;&lt;/a&gt;域名申请与解析&lt;/h1&gt;&lt;h2 id=&quot;初衷&quot;&gt;&lt;a href=&quot;#初衷&quot; class=&quot;headerlink&quot; title=&quot;初衷&quot;&gt;&lt;/a&gt;初衷&lt;/h2&gt;&lt;p&gt;个人博客的网址是 github.io 一类的网址未免普通（Bigger 不够），而博主想正好借这次机会体验一下购买域名的流程，所以就开始选服务商啦！&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="建站" scheme="http://zhangchuanfeng.me/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>将hexo博客同时托管到 github 和 coding</title>
+    <link href="http://zhangchuanfeng.me/2016/11/12/%E5%B0%86hexo%E5%8D%9A%E5%AE%A2%E5%90%8C%E6%97%B6%E6%89%98%E7%AE%A1%E5%88%B0%20github%20%E5%92%8C%20coding/"/>
+    <id>http://zhangchuanfeng.me/2016/11/12/将hexo博客同时托管到 github 和 coding/</id>
+    <published>2016-11-12T13:01:20.000Z</published>
+    <updated>2016-11-13T09:43:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>之前我们把hexo托管在github，但是毕竟github是国外的，访问速度上还是有点慢，所以想也部署一套在国内的托管平台，国内目前比较好的就是 coding 了。接下来就看下怎样将hexo博客同时托管到 github 和 coding<br><a id="more"></a></p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><hr>
+<p>_config.yml 配置</p>
+<hr>
+<p>之前只部署到一个平台时，_config.yml 内容是这样的：  </p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> git</div><div class="line"><span class="attr">  repository:</span> git@github.com:ChuanfengZhang/ChuanfengZhang.github.io.git</div><div class="line"><span class="attr">  branch:</span> master</div></pre></td></tr></table></figure>
+<p>如果我们想同时部署到两个平台，就需要将其改为：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> git</div><div class="line"><span class="attr">  repository:</span></div><div class="line"><span class="attr">    github:</span> git@github.com:ChuanfengZhang/ChuanfengZhang.github.io.git,master</div><div class="line"><span class="attr">    coding:</span> https://git.coding.net/chuanfengzhang/chuanfengzhang.git,master</div></pre></td></tr></table></figure>
+<p><strong>注意：coding 仓库创建以及配置等内容与 github 类似，在此就不展开了</strong>  </p>
+<p>将 hexo 部署到 coding 后，推荐使用 pages 方式，因为可以绑定域名。pages 方式也很简单，就是在 source/ 创建一个空白文件，至于原因，是因为 coding 需要这个文件来作为以静态文件部署的标志。就是说看到这个Staticfile就知道按照静态文件来发布。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd source/</div><div class="line">touch Staticfile  #名字必须是Staticfile</div></pre></td></tr></table></figure>
+<p><img src="http://ww3.sinaimg.cn/large/006y8lVajw1f9pmwinfj1j313u0i3dkz.jpg" alt=""></p>
+<p>然后开启 pages 服务即可</p>
+<p><img src="http://ww2.sinaimg.cn/large/006y8lVajw1f9pn4aa9scj313u0hsdkz.jpg" alt=""></p>
+<p>点击页面提示的地址就可以访问了。</p>
+<p>以后执行<code>hexo d -g</code>就可以同时部署到 github 和 conding 了，是不是很方便呢？</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><hr>
+<p><a href="http://www.jianshu.com/p/7ad9d3cd4d6e" target="_blank" rel="external">hexo干货系列：（四）将hexo博客同时托管到github和coding</a></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><hr>
+<p>这么一设置，以后就方便同时部署到两个平台了，为以后国内国外分别访问两个平台的 pages 打下了基础，下一篇文章是关于域名申请和解析的，敬请期待哦！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;之前我们把hexo托管在github，但是毕竟github是国外的，访问速度上还是有点慢，所以想也部署一套在国内的托管平台，国内目前比较好的就是 coding 了。接下来就看下怎样将hexo博客同时托管到 github 和 coding&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="建站" scheme="http://zhangchuanfeng.me/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>域名不加www无法访问?</title>
+    <link href="http://zhangchuanfeng.me/2016/11/12/%E5%9F%9F%E5%90%8D%E4%B8%8D%E5%8A%A0www%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE?/"/>
+    <id>http://zhangchuanfeng.me/2016/11/12/域名不加www无法访问?/</id>
+    <published>2016-11-12T12:18:47.000Z</published>
+    <updated>2016-11-12T12:52:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>问：我的网站<a href="www.zhangchuanfeng.me">www.zhangchuanfeng.me</a>，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？</p>
+<p>答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。<br>操作步骤：<br><a id="more"></a>  </p>
+<ol>
+<li><p>登录管理中心，点 业务管理&gt;域名服务，找到相关的域名，点 管理，然后点 dns解析管理,点　增加ip,</p>
+<p>添加: A 记录<br>主机名:    填入 @<br>对应值:    填入你的虚拟主机ip (在　虚拟主机管理中心可以查到）<br>(注意： 这一步一般已经由我们的程序自动完成了，如果您发现在：dns解析管理中 有一个@记录，指向了你的ip,你就可以跳过这一步了）。   </p>
+<p>​</p>
+</li>
+<li><p>点业务管理&gt;虚拟主机管理　</p>
+<p>在域名绑定一栏　输入您想绑定的域名zhangchuanfeng.me,然后点添加就行了。</p>
+</li>
+</ol>
+<p>这样，您就可以直接输入zhangchuanfeng.me打开你的网站了。</p>
+<p>如果你想绑定其他的域名，其步骤也是一样的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;问：我的网站&lt;a href=&quot;www.zhangchuanfeng.me&quot;&gt;www.zhangchuanfeng.me&lt;/a&gt;，为何输www.zhangchuanfeng.me可以打开，而直接输入zhangchuanfeng.me打不开？&lt;/p&gt;
+&lt;p&gt;答：虚拟主机开通的时候默认只绑定www.abcd.com,所以abcd.com需要绑定后才能打开。&lt;br&gt;操作步骤：&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="建站" scheme="http://zhangchuanfeng.me/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的博客建好啦！</title>
+    <link href="http://zhangchuanfeng.me/2016/11/10/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%BB%BA%E5%A5%BD%E5%95%A6%EF%BC%81/"/>
+    <id>http://zhangchuanfeng.me/2016/11/10/我的博客建好啦！/</id>
+    <published>2016-11-10T11:27:23.000Z</published>
+    <updated>2016-11-11T03:26:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>跟着<a href="http://leopardpan.github.io" target="_blank" rel="external">潘柏信的博客</a>教程一步一步搭建起来的，比想象中简单。<br>下一步就换主题咯！<br>双11没有买买买，只有学学学！(^o^)/</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;跟着&lt;a href=&quot;http://leopardpan.github.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;潘柏信的博客&lt;/a&gt;教程一步一步搭建起来的，比想象中简单。&lt;br&gt;下一步就换主题咯！&lt;br&gt;双11没有买买买，只有学学学！(^o^)
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://zhangchuanfeng.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
