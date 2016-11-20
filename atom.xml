@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhangchuanfeng.me/"/>
-  <updated>2016-11-17T11:57:01.000Z</updated>
+  <updated>2016-11-20T03:38:59.000Z</updated>
   <id>http://zhangchuanfeng.me/</id>
   
   <author>
@@ -14,6 +14,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo 命令及 Markdown 语法</title>
+    <link href="http://zhangchuanfeng.me/2016/11/20/hexo-%E5%91%BD%E4%BB%A4%E5%8F%8A-Markdown-%E8%AF%AD%E6%B3%95/"/>
+    <id>http://zhangchuanfeng.me/2016/11/20/hexo-命令及-Markdown-语法/</id>
+    <published>2016-11-20T02:58:50.000Z</published>
+    <updated>2016-11-20T03:38:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>##Markdown<br>Hexo是使用 Markdown 编辑文章的，我写的这些文章也都是用这种标记语言完成的。所以，我们先从 Markdown 说起。</p>
+<ul>
+<li>什么是 Markdown</li>
+<li>Markdown 语法</li>
+<li>实战</li>
+</ul>
+<p>你可以使用 vim 工具直接编辑 .md 文件，也可以用记事本打开 .md 文件编辑你的文章，也可以 Markdown 的编辑器编写——这就是 Markdown 的特别之处，它不像 .doc 一样需要专门的软件打开。我是Mac系统，用的一个叫 MacDown 的编辑器，还比较好用。关于 Markdown 编辑器的选择，你可以查看以下文章：</p>
+<ul>
+<li><a href="http://www.jianshu.com/p/6ea395a6a35b" target="_blank" rel="external">Markdown编辑器一览,总有一款适合你</a></li>
+</ul>
+<p>###什么是 Markdown</p>
+<blockquote>
+<p>Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯和亚伦·斯沃茨。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML文档”。 ——维基百科</p>
+</blockquote>
+<p>下面简单介绍一下 Markdown 的语法，具体使用相信您看到例子机会明白了。</p>
+<p>###Markdown 语法<br><strong>1、 分段：</strong> <code>两个回车</code><br><strong>2、 换行：</strong> <code>两个空格 + 回车</code><br><strong>3、标题：</strong> <code>#</code>~<code>######</code> 井号的个数代表几级标题<br><strong>4、引用：</strong> <code>&gt;</code><br><strong>5、列表</strong> <code>*</code>,<code>+</code>,<code>-</code>,<code>1.</code> 均可，注意其后有个空格<br><strong>6、代码区块：</strong> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">**7、链接：** `[文字](链接地址)`  </div><div class="line">**8：图片** `![图片说明](图片链接)` ，图片链接可以是本地路径，也可以是网络地址  </div><div class="line">**9、强调：** `**文字**`，`__文字__`，`_文字_`  </div><div class="line">**10、斜体：** `*文字*`</div><div class="line"></div><div class="line">###实战</div><div class="line">光看不练假本身，动手看看效果吧！  </div><div class="line">在线编辑器例文： [传送门](https://www.zybuluo.com/mdeditor)  </div><div class="line">MacDown 编辑器： [下载地址](http://macdown.uranusjr.com)</div><div class="line"></div><div class="line">##Hexo 常用命令</div><div class="line">**1、新建**</div></pre></td></tr></table></figure></p>
+<p>hexo new “new post”<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">新建的文件在`hexo/source/_posts/new-post.md`，可前往打开编辑</div><div class="line"></div><div class="line">**2、 编译**</div></pre></td></tr></table></figure></p>
+<p>hexo g<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">一般部署前都要编译一下，将所有的 .md 文件编译成 .html 文件并储存在`public` 文件夹  </div><div class="line"></div><div class="line">**3、开启本地服务**</div></pre></td></tr></table></figure></p>
+<p>hexo s<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">开启本地服务后，就可以通过`http://localhost:4000/` 访问你的博客</div><div class="line"></div><div class="line">**4、部署**</div></pre></td></tr></table></figure></p>
+<p>hexo d<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">部署到 git 等</div><div class="line"></div><div class="line">**5、清除缓存**</div></pre></td></tr></table></figure></p>
+<p>hexo c<br><code>``  
+当</code>source`文件夹中的部分资源更改过之后，特别是对文件进行了删除或者路径的改变之后，需要执行这个命令，然后重新编译。</p>
+<p>以上这些都是我在使用过程中经常用到的一些hexo命令。最为详细、最为全面的说明文档当然还是在<a href="http://zespia.tw/hexo/docs/commands.html" target="_blank" rel="external">官网</a>。请各位猛戳。</p>
+<p>##总结</p>
+<p>本篇博文介绍了常用的 Hexo 命令和 Markdown 语法，多练习多使用方能掌握~</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;##Markdown&lt;br&gt;Hexo是使用 Markdown 编辑文章的，我写的这些文章也都是用这种标记语言完成的。所以，我们先从 Markdown 说起。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;什么是 Markdown&lt;/li&gt;
+&lt;li&gt;Markdown 语法&lt;/li&gt;
+&lt;li&gt;实战
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://zhangchuanfeng.me/tags/hexo/"/>
+    
+      <category term="markdown" scheme="http://zhangchuanfeng.me/tags/markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>11.14-11.16 回家之行</title>
