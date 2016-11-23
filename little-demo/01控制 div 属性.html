@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>控制 div 属性</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        #outer {
+            width: 500px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        #div {
+            width: 100px;
+            height: 100px;
+            background: black;
+            margin: 10px auto;
+            display: block;
+        }
+    </style>
+    <script type="text/javascript">
+        var changeStyle = function(ele, attr, value) {
+            ele.style[attr] = value;
+        };
+        window.onload = function() {
+            var oBtn = document.getElementsByTagName("button");
+            var oDiv = document.getElementById("div");
+            var oAtt = ["width", "height", "background", "display", "display"];
+            var oValue = ["200px", "200px", "red", "none", "block"];
+            for (var i = 0; i < oBtn.length; i++) {
+                oBtn[i].index = i;
+                oBtn[i].onclick = function() {
+                    if(this.index == oBtn.length - 1) oDiv.style.cssText = "";
+                    changeStyle(oDiv, oAtt[this.index], oValue[this.index])
+                }
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <div id="outer">
+        <button>变宽</button>
+        <button>变高</button>
+        <button>变色</button>
+        <button>隐藏</button>
+        <button>重置</button>
+        <div id="div"></div>
+    </div>
+
+</body>
+
+</html>
