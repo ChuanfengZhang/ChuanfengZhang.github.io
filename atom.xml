@@ -71,6 +71,34 @@
   </entry>
   
   <entry>
+    <title>CSS 布局</title>
+    <link href="http://zhangchuanfeng.me/2016/11/23/CSS%E5%B8%83%E5%B1%80/"/>
+    <id>http://zhangchuanfeng.me/2016/11/23/CSS布局/</id>
+    <published>2016-11-23T12:40:31.000Z</published>
+    <updated>2016-11-24T12:47:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天偶然发现 <a href="http://zh.learnlayout.com" target="_blank" rel="external">学习 CSS 布局</a> 这个网站，又从头到尾把 CSS 布局有关的知识梳理了一遍，做成了下面的思维导图。</p>
+<a id="more"></a>
+<p><img src="http://ww4.sinaimg.cn/large/65e4f1e6jw1fa3hgr3kwdj20w40rn0ug.jpg" alt=""></p>
+<p>通过梳理，发现自己对 Flex 布局还不了解，谷歌后发现阮一峰大大的教程不错，打算跟着学习一下。</p>
+<p><a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html" target="_blank" rel="external">Flex 布局教程：语法篇</a></p>
+<p><a href="http://www.ruanyifeng.com/blog/2015/07/flex-examples.html" target="_blank" rel="external">Flex 布局教程：实例篇</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天偶然发现 &lt;a href=&quot;http://zh.learnlayout.com&quot;&gt;学习 CSS 布局&lt;/a&gt; 这个网站，又从头到尾把 CSS 布局有关的知识梳理了一遍，做成了下面的思维导图。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="CSS" scheme="http://zhangchuanfeng.me/tags/CSS/"/>
+    
+      <category term="布局" scheme="http://zhangchuanfeng.me/tags/%E5%B8%83%E5%B1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何在短时间内掌握一项技能--知乎 Live</title>
     <link href="http://zhangchuanfeng.me/2016/11/22/%E5%A6%82%E4%BD%95%E5%9C%A8%E7%9F%AD%E6%97%B6%E9%97%B4%E5%86%85%E6%8E%8C%E6%8F%A1%E4%B8%80%E9%A1%B9%E6%8A%80%E8%83%BD--%E7%9F%A5%E4%B9%8E%20Live/"/>
     <id>http://zhangchuanfeng.me/2016/11/22/如何在短时间内掌握一项技能--知乎 Live/</id>
