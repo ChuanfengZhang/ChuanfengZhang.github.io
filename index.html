@@ -155,7 +155,7 @@
       <div class="body-wrap">
         
   
-    <article id="post-《图解HTTP》读书笔记" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-（转）《图解HTTP》读书笔记" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -165,7 +165,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/12/02/《图解HTTP》读书笔记/">《图解 HTTP》读书笔记</a>
+      <a class="article-title" href="/2016/12/02/（转）《图解HTTP》读书笔记/">（转）《图解 HTTP》读书笔记</a>
     </h1>
   
 
@@ -173,7 +173,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>HTTP（HyperText Transfer Protocol，超文转移协议，超文本传输协议的译法并不严谨。）</p>
+        <blockquote>
+<p>本文转载自 <a href="http://jcidea.cc/2016/01/20/2016-1-19-object-oriented-programming-notes/" target="_blank" rel="external">刘健超(Jc)’s Blog</a></p>
+</blockquote>
+<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>HTTP（HyperText Transfer Protocol，超文转移协议，超文本传输协议的译法并不严谨。）</p>
 <h3 id="网络基础-TCP-IP"><a href="#网络基础-TCP-IP" class="headerlink" title="网络基础 TCP/IP"></a>网络基础 TCP/IP</h3><h4 id="TCP-IP-协议族"><a href="#TCP-IP-协议族" class="headerlink" title="TCP/IP 协议族"></a>TCP/IP 协议族</h4><p>TCP/IP 协议族是互联网相关联的协议的集合。从电缆的规格到IP地址的选定方法、寻找异地用户的方法、双方建立通信的顺序，以及Web页面显示需要处理的步骤，等等。而HTTP是属于它内部的一个子集。</p>
 <h4 id="TCP-IP-的分层管理"><a href="#TCP-IP-的分层管理" class="headerlink" title="TCP/IP 的分层管理"></a>TCP/IP 的分层管理</h4><p>TCP/IP 协议族按层次分别分为以下 4 层：应用层、传输层、网络层和数据链路层。<br>分层的好处：把各层之间的接口部分规划好之后，每个层次内部的设计就能够自由改动了。而且，层次化之后，设计也变得相对简单。处于应用层上的应用可以只考虑分派给自己的任务，而无需弄清对方在地球上哪个地方、对方的传输路线、是否能确保传输送达等问题。</p>
 <ul>
@@ -746,7 +749,7 @@
     </div>
     <div class="article-info article-info-index">
       
-      <a href="/2016/12/02/《图解HTTP》读书笔记/" class="archive-article-date">
+      <a href="/2016/12/02/（转）《图解HTTP》读书笔记/" class="archive-article-date">
   	<time datetime="2016-12-02T13:22:54.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-12-02</time>
 </a>
       
@@ -772,7 +775,7 @@
 
 
   
-    <article id="post-《JavaScript面向对象精要》读书笔记" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-（转）《JavaScript面向对象精要》读书笔记" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -782,7 +785,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/12/02/《JavaScript面向对象精要》读书笔记/">《JavaScript面向对象精要》读书笔记</a>
+      <a class="article-title" href="/2016/12/02/（转）《JavaScript面向对象精要》读书笔记/">（转）《JavaScript面向对象精要》读书笔记</a>
     </h1>
   
 
@@ -790,19 +793,22 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>《JavaScript面向对象精要》这本书虽然不够100页，但都是精华，不愧是《JavaScript高级程序设计》作者 Nicholas C.Zakas 的最新力作。</p>
+        <blockquote>
+<p>本文转载自 <a href="http://jcidea.cc/2016/01/20/2016-1-19-object-oriented-programming-notes/">刘健超(Jc)’s Blog</a></p>
+</blockquote>
+<p>《JavaScript面向对象精要》这本书虽然不够100页，但都是精华，不愧是《JavaScript高级程序设计》作者 Nicholas C.Zakas 的最新力作。</p>
 <p>下面是我的读书笔记（ES5）：</p>
 <h2 id="1-原始类型和引用类型"><a href="#1-原始类型和引用类型" class="headerlink" title="1.原始类型和引用类型"></a>1.原始类型和引用类型</h2><h3 id="1-1-什么是类型"><a href="#1-1-什么是类型" class="headerlink" title="1.1 什么是类型"></a>1.1 什么是类型</h3><p><strong>原始类型</strong> 保存为简单数据值。<br><strong>引用类型</strong> 保存为对象，其本质是指向内存位置的引用。</p>
 <p>为了让开发者能够把原始类型和引用类型按相同的方式处理，JavaScript花费了很大的努力来保证语言的一致性。</p>
 <p>其他编程语言用栈存原始类型，用对存储引用类型。而JavaScript则完全不同：它使用一个变量对象追踪变量的生存期。原始值被直接保存在变量对象内，而引用值则作为一个指针保存在变量对象内，该指针指向实际对象在内存中的存储位置。<br>
         <p class="article-more-link">
-          <a class="article-more-a"  href="/2016/12/02/《JavaScript面向对象精要》读书笔记/#more">more >></a>
+          <a class="article-more-a"  href="/2016/12/02/（转）《JavaScript面向对象精要》读书笔记/#more">more >></a>
         </p>
       
     </div>
     <div class="article-info article-info-index">
       
-      <a href="/2016/12/02/《JavaScript面向对象精要》读书笔记/" class="archive-article-date">
+      <a href="/2016/12/02/（转）《JavaScript面向对象精要》读书笔记/" class="archive-article-date">
   	<time datetime="2016-12-02T13:05:16.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-12-02</time>
 </a>
       
@@ -828,7 +834,7 @@
 
 
   
-    <article id="post-JavaScript面向对象核心知识归纳" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-（转）JavaScript面向对象核心知识归纳" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -838,7 +844,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/12/02/JavaScript面向对象核心知识归纳/">JavaScript面向对象核心知识归纳</a>
+      <a class="article-title" href="/2016/12/02/（转）JavaScript面向对象核心知识归纳/">（转）JavaScript面向对象核心知识归纳</a>
     </h1>
   
 
@@ -857,13 +863,13 @@
 </ol>
 <h3 id="封装性"><a href="#封装性" class="headerlink" title="封装性"></a>封装性</h3><p>对象是将数据与共组合到一起，即封装<br>
         <p class="article-more-link">
-          <a class="article-more-a"  href="/2016/12/02/JavaScript面向对象核心知识归纳/#more">more >></a>
+          <a class="article-more-a"  href="/2016/12/02/（转）JavaScript面向对象核心知识归纳/#more">more >></a>
         </p>
       
     </div>
     <div class="article-info article-info-index">
       
-      <a href="/2016/12/02/JavaScript面向对象核心知识归纳/" class="archive-article-date">
+      <a href="/2016/12/02/（转）JavaScript面向对象核心知识归纳/" class="archive-article-date">
   	<time datetime="2016-12-02T01:12:54.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-12-02</time>
 </a>
       

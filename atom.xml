@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhangchuanfeng.me/"/>
-  <updated>2016-12-02T13:20:29.000Z</updated>
+  <updated>2016-12-03T09:18:54.000Z</updated>
   <id>http://zhangchuanfeng.me/</id>
   
   <author>
@@ -16,13 +16,16 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>《图解 HTTP》读书笔记</title>
-    <link href="http://zhangchuanfeng.me/2016/12/02/%E3%80%8A%E5%9B%BE%E8%A7%A3HTTP%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://zhangchuanfeng.me/2016/12/02/《图解HTTP》读书笔记/</id>
+    <title>（转）《图解 HTTP》读书笔记</title>
+    <link href="http://zhangchuanfeng.me/2016/12/02/%EF%BC%88%E8%BD%AC%EF%BC%89%E3%80%8A%E5%9B%BE%E8%A7%A3HTTP%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>http://zhangchuanfeng.me/2016/12/02/（转）《图解HTTP》读书笔记/</id>
     <published>2016-12-02T13:22:54.000Z</published>
-    <updated>2016-12-02T13:20:29.000Z</updated>
+    <updated>2016-12-03T09:18:54.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>HTTP（HyperText Transfer Protocol，超文转移协议，超文本传输协议的译法并不严谨。）</p>
+    <content type="html"><![CDATA[<blockquote>
+<p>本文转载自 <a href="http://jcidea.cc/2016/01/20/2016-1-19-object-oriented-programming-notes/" target="_blank" rel="external">刘健超(Jc)’s Blog</a></p>
+</blockquote>
+<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>HTTP（HyperText Transfer Protocol，超文转移协议，超文本传输协议的译法并不严谨。）</p>
 <h3 id="网络基础-TCP-IP"><a href="#网络基础-TCP-IP" class="headerlink" title="网络基础 TCP/IP"></a>网络基础 TCP/IP</h3><h4 id="TCP-IP-协议族"><a href="#TCP-IP-协议族" class="headerlink" title="TCP/IP 协议族"></a>TCP/IP 协议族</h4><p>TCP/IP 协议族是互联网相关联的协议的集合。从电缆的规格到IP地址的选定方法、寻找异地用户的方法、双方建立通信的顺序，以及Web页面显示需要处理的步骤，等等。而HTTP是属于它内部的一个子集。</p>
 <h4 id="TCP-IP-的分层管理"><a href="#TCP-IP-的分层管理" class="headerlink" title="TCP/IP 的分层管理"></a>TCP/IP 的分层管理</h4><p>TCP/IP 协议族按层次分别分为以下 4 层：应用层、传输层、网络层和数据链路层。<br>分层的好处：把各层之间的接口部分规划好之后，每个层次内部的设计就能够自由改动了。而且，层次化之后，设计也变得相对简单。处于应用层上的应用可以只考虑分派给自己的任务，而无需弄清对方在地球上哪个地方、对方的传输路线、是否能确保传输送达等问题。</p>
 <ul>
@@ -594,8 +597,8 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h2&gt;&lt;p&gt;HTTP（HyperText Transfer Protocol，超文转移协议，超文本传输协议的译法并不严谨。）&lt;/p&gt;
-&lt;h3 i
+      &lt;blockquote&gt;
+&lt;p&gt;本文转载自 &lt;a href=&quot;http://jcidea.cc/2016/01/20/2016-1-19-object-oriented-programming-notes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;刘健超(
     
     </summary>
     
@@ -607,13 +610,16 @@
   </entry>
   
   <entry>
-    <title>《JavaScript面向对象精要》读书笔记</title>
-    <link href="http://zhangchuanfeng.me/2016/12/02/%E3%80%8AJavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%B2%BE%E8%A6%81%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://zhangchuanfeng.me/2016/12/02/《JavaScript面向对象精要》读书笔记/</id>
+    <title>（转）《JavaScript面向对象精要》读书笔记</title>
+    <link href="http://zhangchuanfeng.me/2016/12/02/%EF%BC%88%E8%BD%AC%EF%BC%89%E3%80%8AJavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%B2%BE%E8%A6%81%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>http://zhangchuanfeng.me/2016/12/02/（转）《JavaScript面向对象精要》读书笔记/</id>
     <published>2016-12-02T13:05:16.000Z</published>
-    <updated>2016-12-02T13:12:17.000Z</updated>
+    <updated>2016-12-03T09:17:13.000Z</updated>
     
-    <content type="html"><![CDATA[<p>《JavaScript面向对象精要》这本书虽然不够100页，但都是精华，不愧是《JavaScript高级程序设计》作者 Nicholas C.Zakas 的最新力作。</p>
+    <content type="html"><![CDATA[<blockquote>
+<p>本文转载自 <a href="http://jcidea.cc/2016/01/20/2016-1-19-object-oriented-programming-notes/" target="_blank" rel="external">刘健超(Jc)’s Blog</a></p>
+</blockquote>
+<p>《JavaScript面向对象精要》这本书虽然不够100页，但都是精华，不愧是《JavaScript高级程序设计》作者 Nicholas C.Zakas 的最新力作。</p>
 <p>下面是我的读书笔记（ES5）：</p>
 <h2 id="1-原始类型和引用类型"><a href="#1-原始类型和引用类型" class="headerlink" title="1.原始类型和引用类型"></a>1.原始类型和引用类型</h2><h3 id="1-1-什么是类型"><a href="#1-1-什么是类型" class="headerlink" title="1.1 什么是类型"></a>1.1 什么是类型</h3><p><strong>原始类型</strong> 保存为简单数据值。<br><strong>引用类型</strong> 保存为对象，其本质是指向内存位置的引用。</p>
 <p>为了让开发者能够把原始类型和引用类型按相同的方式处理，JavaScript花费了很大的努力来保证语言的一致性。</p>
@@ -1475,13 +1481,14 @@ console.log(person2.getAge()); // 23
     }
 }
 </code></pre><h2 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h2><p>看了两天的书，做了两天的笔记。当然这只是ES5的。过几天 ES6 新书又来了。最后感谢 <a href="http://www.epubit.com.cn/" target="_blank" rel="external">异步社区</a> 送我这本好书 <a href="http://www.epubit.com.cn/book/details/1798" target="_blank" rel="external">《JavaScript面向对象精要》</a>，让我的前端根基更加稳固，希望自己的前端之路越走越顺。</p>
-<hr>
-<p>本文转载自 <a href="http://jcidea.cc/2016/01/20/2016-1-19-object-oriented-programming-notes/" target="_blank" rel="external">刘健超(Jc)’s Blog</a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;《JavaScript面向对象精要》这本书虽然不够100页，但都是精华，不愧是《JavaScript高级程序设计》作者 Nicholas C.Zakas 的最新力作。&lt;/p&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;本文转载自 &lt;a href=&quot;http://jcidea.cc/2016/01/20/2016-1-19-object-oriented-programming-notes/&quot;&gt;刘健超(Jc)’s Blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;《JavaScript面向对象精要》这本书虽然不够100页，但都是精华，不愧是《JavaScript高级程序设计》作者 Nicholas C.Zakas 的最新力作。&lt;/p&gt;
 &lt;p&gt;下面是我的读书笔记（ES5）：&lt;/p&gt;
 &lt;h2 id=&quot;1-原始类型和引用类型&quot;&gt;&lt;a href=&quot;#1-原始类型和引用类型&quot; class=&quot;headerlink&quot; title=&quot;1.原始类型和引用类型&quot;&gt;&lt;/a&gt;1.原始类型和引用类型&lt;/h2&gt;&lt;h3 id=&quot;1-1-什么是类型&quot;&gt;&lt;a href=&quot;#1-1-什么是类型&quot; class=&quot;headerlink&quot; title=&quot;1.1 什么是类型&quot;&gt;&lt;/a&gt;1.1 什么是类型&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;原始类型&lt;/strong&gt; 保存为简单数据值。&lt;br&gt;&lt;strong&gt;引用类型&lt;/strong&gt; 保存为对象，其本质是指向内存位置的引用。&lt;/p&gt;
 &lt;p&gt;为了让开发者能够把原始类型和引用类型按相同的方式处理，JavaScript花费了很大的努力来保证语言的一致性。&lt;/p&gt;
@@ -1497,11 +1504,11 @@ console.log(person2.getAge()); // 23
   </entry>
   
   <entry>
-    <title>JavaScript面向对象核心知识归纳</title>
-    <link href="http://zhangchuanfeng.me/2016/12/02/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E5%BD%92%E7%BA%B3/"/>
-    <id>http://zhangchuanfeng.me/2016/12/02/JavaScript面向对象核心知识归纳/</id>
+    <title>（转）JavaScript面向对象核心知识归纳</title>
+    <link href="http://zhangchuanfeng.me/2016/12/02/%EF%BC%88%E8%BD%AC%EF%BC%89JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E5%BD%92%E7%BA%B3/"/>
+    <id>http://zhangchuanfeng.me/2016/12/02/（转）JavaScript面向对象核心知识归纳/</id>
     <published>2016-12-02T01:12:54.000Z</published>
-    <updated>2016-12-02T03:06:48.000Z</updated>
+    <updated>2016-12-03T07:58:47.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><ol>
 <li>面向对象就是使用对象。面向对象开发就是使用对象开发。</li>
