@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhangchuanfeng.me/"/>
-  <updated>2016-12-06T12:50:31.000Z</updated>
+  <updated>2016-12-15T01:12:58.000Z</updated>
   <id>http://zhangchuanfeng.me/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac 显示隐藏文件</title>
+    <link href="http://zhangchuanfeng.me/2016/12/15/Mac%20%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6/"/>
+    <id>http://zhangchuanfeng.me/2016/12/15/Mac 显示隐藏文件/</id>
+    <published>2016-12-15T01:15:31.000Z</published>
+    <updated>2016-12-15T01:12:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在 macOS Sierra 之前，要在 Finder 中显示隐藏文件，要输入一串命令<br><code>defaults write com.apple.finder AppleShowAllFiles -bool true</code></p>
+<p>要想恢复，又得输入一串命令。</p>
+<p>然鹅，现在一切都不一样了——</p>
+<p>在 macOS Sierra，我们可以使用快捷键<code>⌘⇧.(Command + Shift + .)</code> 来快速（在 Finder 中）显示和隐藏隐藏文件了。</p>
+<p>简直方便极了</p>
+<p><img src="http://ww3.sinaimg.cn/large/006y8lVajw1far7c2w3g4j30pb0ikdih.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在 macOS Sierra 之前，要在 Finder 中显示隐藏文件，要输入一串命令&lt;br&gt;&lt;code&gt;defaults write com.apple.finder AppleShowAllFiles -bool true&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;要想恢复，又得输入
+    
+    </summary>
+    
+    
+      <category term="Mac" scheme="http://zhangchuanfeng.me/tags/Mac/"/>
+    
+      <category term="快捷键" scheme="http://zhangchuanfeng.me/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>（转）《图解 HTTP》读书笔记</title>
