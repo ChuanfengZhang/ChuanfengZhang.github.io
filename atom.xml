@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhangchuanfeng.me/"/>
-  <updated>2016-12-15T13:20:35.000Z</updated>
+  <updated>2016-12-17T10:30:05.000Z</updated>
   <id>http://zhangchuanfeng.me/</id>
   
   <author>
@@ -14,6 +14,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RequireJS 小记</title>
+    <link href="http://zhangchuanfeng.me/2016/12/17/requireJS-notes/"/>
+    <id>http://zhangchuanfeng.me/2016/12/17/requireJS-notes/</id>
+    <published>2016-12-17T08:47:25.000Z</published>
+    <updated>2016-12-17T10:30:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="baseUrl"><a href="#baseUrl" class="headerlink" title="baseUrl"></a>baseUrl</h2><p><code>RequireJS</code> 的目标是鼓励代码的模块化，它使用了不同于传统<code>&lt;script&gt;</code>标签的脚本加载步骤。可以用它来加速、优化代码，但其主要目的还是为了代码的模块化。它鼓励在使用脚本时以 <code>module ID</code> 替代 URL 地址。</p>
+<p><code>RequireJS</code> 以一个相对于 <code>baseUrl</code> 的地址来加载所有的代码。页面顶层 <code>&lt;script&gt;</code>标签含有一个特殊的属性 <code>data-main</code> ，<code>requireJS</code> 使用它来启动脚本加载过程，而 <code>baseUrl</code> 一般设置到与该属性相一致的目录。下列示例中展示了 <code>baseUrl</code> 的设置：</p>
+<p><code>&lt;script data-main=&quot;scripts/main.js&quot; src=&quot;scripts/RequireJS&quot;&gt;&lt;/script&gt;</code></p>
+<p><code>baseUrl</code> 亦可通过 <code>RequireJS config</code> 手动设置。如果没有显式指定 <code>config</code> 及 <code>data-main</code> ，则默认的 <code>baseUrl</code> 为包含 <code>RequireJS</code> 的那个 <code>HTML</code> 页面的所属目录。</p>
+<h2 id="data-main-入口点"><a href="#data-main-入口点" class="headerlink" title="data-main 入口点"></a>data-main 入口点</h2><p><code>RequireJS</code> 在加载的时候会检查 <code>data-main</code> 属性：</p>
+<a id="more"></a>
+<p><code>&lt;script data-main=&quot;scripts/main&quot; src=&quot;scripts/RequireJS&quot;&gt;&lt;/script&gt;</code></p>
+<h2 id="模块定义"><a href="#模块定义" class="headerlink" title="模块定义"></a>模块定义</h2><h3 id="简单定义"><a href="#简单定义" class="headerlink" title="简单定义"></a>简单定义</h3><p>如果一个模块仅含值对，没有任何依赖，则在 <code>define()</code> 中定义这些值对就好了：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">define(&#123;</div><div class="line"></div><div class="line">        <span class="attr">color</span>: <span class="string">"black"</span>,</div><div class="line"></div><div class="line">        <span class="attr">size</span>: <span class="string">"unisize"</span></div><div class="line"></div><div class="line">    &#125;);</div></pre></td></tr></table></figure>
+<h3 id="函数式定义："><a href="#函数式定义：" class="headerlink" title="函数式定义："></a>函数式定义：</h3><p>如果一个模块没有任何依赖，但需要一个做 <code>step</code> 工作的函数，则在 <code>define()</code> 中定义该函数，并将其传给 <code>define()</code>：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">define(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="comment">//Do setup work here</span></div><div class="line"></div><div class="line">        <span class="keyword">return</span> &#123;</div><div class="line">            <span class="attr">color</span>: <span class="string">"black"</span>,</div><div class="line">            <span class="attr">size</span>: <span class="string">"unisize"</span></div><div class="line">        &#125;</div><div class="line">    &#125;);</div></pre></td></tr></table></figure>
+<h3 id="存在依赖的函数定义"><a href="#存在依赖的函数定义" class="headerlink" title="存在依赖的函数定义"></a>存在依赖的函数定义</h3><p>如果模块存在依赖：则第一个参数是依赖的名称数组；第二个参数是函数，在模块的所有依赖加载完毕后，该函数会被调用来定义该模块，因此该模块应该返回一个定义了本模块的 <code>object</code> 。依赖关系会以参数的形式注入到该函数上，参数列表与依赖名称列表一一对应。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">define([<span class="string">"./cart"</span>, <span class="string">"./inventory"</span>], <span class="function"><span class="keyword">function</span>(<span class="params">cart, inventory</span>) </span>&#123;</div><div class="line">        <span class="comment">//return an object to define the "my/shirt" module.</span></div><div class="line">        <span class="keyword">return</span> &#123;</div><div class="line">            <span class="attr">color</span>: <span class="string">"blue"</span>,</div><div class="line">            <span class="attr">size</span>: <span class="string">"large"</span>,</div><div class="line">            <span class="attr">addToCart</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">                inventory.decrement(<span class="keyword">this</span>);</div><div class="line">                cart.add(<span class="keyword">this</span>);</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">);</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;baseUrl&quot;&gt;&lt;a href=&quot;#baseUrl&quot; class=&quot;headerlink&quot; title=&quot;baseUrl&quot;&gt;&lt;/a&gt;baseUrl&lt;/h2&gt;&lt;p&gt;&lt;code&gt;RequireJS&lt;/code&gt; 的目标是鼓励代码的模块化，它使用了不同于传统&lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt;标签的脚本加载步骤。可以用它来加速、优化代码，但其主要目的还是为了代码的模块化。它鼓励在使用脚本时以 &lt;code&gt;module ID&lt;/code&gt; 替代 URL 地址。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;RequireJS&lt;/code&gt; 以一个相对于 &lt;code&gt;baseUrl&lt;/code&gt; 的地址来加载所有的代码。页面顶层 &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt;标签含有一个特殊的属性 &lt;code&gt;data-main&lt;/code&gt; ，&lt;code&gt;requireJS&lt;/code&gt; 使用它来启动脚本加载过程，而 &lt;code&gt;baseUrl&lt;/code&gt; 一般设置到与该属性相一致的目录。下列示例中展示了 &lt;code&gt;baseUrl&lt;/code&gt; 的设置：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;script data-main=&amp;quot;scripts/main.js&amp;quot; src=&amp;quot;scripts/RequireJS&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;baseUrl&lt;/code&gt; 亦可通过 &lt;code&gt;RequireJS config&lt;/code&gt; 手动设置。如果没有显式指定 &lt;code&gt;config&lt;/code&gt; 及 &lt;code&gt;data-main&lt;/code&gt; ，则默认的 &lt;code&gt;baseUrl&lt;/code&gt; 为包含 &lt;code&gt;RequireJS&lt;/code&gt; 的那个 &lt;code&gt;HTML&lt;/code&gt; 页面的所属目录。&lt;/p&gt;
+&lt;h2 id=&quot;data-main-入口点&quot;&gt;&lt;a href=&quot;#data-main-入口点&quot; class=&quot;headerlink&quot; title=&quot;data-main 入口点&quot;&gt;&lt;/a&gt;data-main 入口点&lt;/h2&gt;&lt;p&gt;&lt;code&gt;RequireJS&lt;/code&gt; 在加载的时候会检查 &lt;code&gt;data-main&lt;/code&gt; 属性：&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="RequireJS" scheme="http://zhangchuanfeng.me/tags/RequireJS/"/>
+    
+      <category term="JavaScript" scheme="http://zhangchuanfeng.me/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>Webstorm 快捷键（Mac 版）</title>
@@ -1646,9 +1685,9 @@ console.log(person2.getAge()); // 23
     </summary>
     
     
-      <category term="读书笔记" scheme="http://zhangchuanfeng.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="JavaScript面向对象" scheme="http://zhangchuanfeng.me/tags/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+      <category term="读书笔记" scheme="http://zhangchuanfeng.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
