@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhangchuanfeng.me/2016/12/26/something-missed/</loc>
+    
+    <lastmod>2016-12-26T13:13:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhangchuanfeng.me/2016/12/17/requireJS-notes/</loc>
     
     <lastmod>2016-12-17T10:30:05.000Z</lastmod>

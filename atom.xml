@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhangchuanfeng.me/"/>
-  <updated>2016-12-17T10:30:05.000Z</updated>
+  <updated>2016-12-26T13:13:02.000Z</updated>
   <id>http://zhangchuanfeng.me/</id>
   
   <author>
@@ -14,6 +14,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>有些事错过就不再</title>
+    <link href="http://zhangchuanfeng.me/2016/12/26/something-missed/"/>
+    <id>http://zhangchuanfeng.me/2016/12/26/something-missed/</id>
+    <published>2016-12-26T12:56:12.000Z</published>
+    <updated>2016-12-26T13:13:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>有句话说道：</p>
+<blockquote>
+<p>有些事现在不做，就永远不会做了。</p>
+</blockquote>
+<p>我觉得事情没那么绝对，这句话更多地是主观能动性上的。</p>
+<p>而有的事，却是时间决定的。</p>
+<p>比如在某人生日这天，你在犹豫要不要因为之前的矛盾而影响给 Ta 的祝福。然后一天就过去了，今天过去了就是过去了，永远永远都不会再回来，除非在梦里。</p>
+<p>比如某人准备一场很重要的考试，在 Ta 最需要鼓励与支持时，你在犹豫，在想会不会打扰 Ta，之前的事会不会使得你这次的问候有些尴尬。然后在犹豫中一天一天又一天，终于 Ta 成功了，你藏在心里的祝福成了永远也无法送达的信件。</p>
+<p>比如某人考完研，你本该送去关心和祝贺，本来一个电话的事，你也不知道怎么回事，就是没有拨过去电话，然后一分钟，半小时，几个小时过去了，等你后悔的时候时机已不再合适。</p>
+<p><strong>有些事想到就去做，现在不做，以后就没有机会了。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有句话说道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有些事现在不做，就永远不会做了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我觉得事情没那么绝对，这句话更多地是主观能动性上的。&lt;/p&gt;
+&lt;p&gt;而有的事，却是时间决定的。&lt;/p&gt;
+&lt;p&gt;比如在某人生日这天，你在犹豫要不要
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://zhangchuanfeng.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>RequireJS 小记</title>
@@ -1685,9 +1721,9 @@ console.log(person2.getAge()); // 23
     </summary>
     
     
-      <category term="JavaScript面向对象" scheme="http://zhangchuanfeng.me/tags/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
-    
       <category term="读书笔记" scheme="http://zhangchuanfeng.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript面向对象" scheme="http://zhangchuanfeng.me/tags/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
     
   </entry>
   
