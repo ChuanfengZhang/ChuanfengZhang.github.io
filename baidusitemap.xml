@@ -1,313 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-    
   <url>
+    <loc>http://zhangchuanfeng.me/2020/05/22/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
+    <lastmod>2020-05-22</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/12/26/something-missed/</loc>
-    <lastmod>2016-12-26T13:13:02.000Z</lastmod>
-    <data>
-        <display>
-        <title>有些事错过就不再</title>
-        <pubTime>2016-12-26T12:56:12.000Z</pubTime>
-        
-        <tag>随笔</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-12-26</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/12/17/requireJS-notes/</loc>
-    <lastmod>2016-12-17T10:30:05.000Z</lastmod>
-    <data>
-        <display>
-        <title>RequireJS 小记</title>
-        <pubTime>2016-12-17T08:47:25.000Z</pubTime>
-        
-        <tag>RequireJS</tag>
-         
-        <tag>JavaScript</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-12-17</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/12/02/illustration-http-notes/</loc>
-    <lastmod>2016-12-15T13:31:39.000Z</lastmod>
-    <data>
-        <display>
-        <title>（转）《图解 HTTP》读书笔记</title>
-        <pubTime>2016-12-02T13:22:54.000Z</pubTime>
-        
-        <tag>HTTP</tag>
-         
-        <tag>读书笔记</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-12-15</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/12/15/webstorm-shortcuts/</loc>
-    <lastmod>2016-12-15T13:20:35.000Z</lastmod>
-    <data>
-        <display>
-        <title>Webstorm 快捷键（Mac 版）</title>
-        <pubTime>2016-12-15T13:04:35.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-        <tag>快捷键</tag>
-         
-        <tag>Webstorm</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-12-15</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/12/15/Mac-display-hidden-files/</loc>
-    <lastmod>2016-12-15T01:12:58.000Z</lastmod>
-    <data>
-        <display>
-        <title>Mac 显示隐藏文件</title>
-        <pubTime>2016-12-15T01:15:31.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-        <tag>快捷键</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-12-15</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/12/02/object-oriented-programming-notes/</loc>
-    <lastmod>2016-12-03T09:17:13.000Z</lastmod>
-    <data>
-        <display>
-        <title>（转）《JavaScript面向对象精要》读书笔记</title>
-        <pubTime>2016-12-02T13:05:16.000Z</pubTime>
-        
-        <tag>JavaScript面向对象</tag>
-         
-        <tag>读书笔记</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-12-03</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/12/02/object-oriented-programming-core/</loc>
-    <lastmod>2016-12-03T07:58:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>（转）JavaScript面向对象核心知识归纳</title>
-        <pubTime>2016-12-02T01:12:54.000Z</pubTime>
-        
-        <tag>JavaScript面向对象</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
+    <lastmod>2016-12-03</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/11/24/cross-domain/</loc>
-    <lastmod>2016-11-25T01:28:40.000Z</lastmod>
-    <data>
-        <display>
-        <title>跨域-知识</title>
-        <pubTime>2016-11-24T12:18:56.000Z</pubTime>
-        
-        <tag>跨域</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-11-25</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/11/23/CSS-layout/</loc>
-    <lastmod>2016-11-24T12:47:03.000Z</lastmod>
-    <data>
-        <display>
-        <title>CSS 布局</title>
-        <pubTime>2016-11-23T12:40:31.000Z</pubTime>
-        
-        <tag>CSS</tag>
-         
-        <tag>布局</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
+    <lastmod>2016-11-24</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/11/22/%E5%A6%82%E4%BD%95%E5%9C%A8%E7%9F%AD%E6%97%B6%E9%97%B4%E5%86%85%E6%8E%8C%E6%8F%A1%E4%B8%80%E9%A1%B9%E6%8A%80%E8%83%BD--%E7%9F%A5%E4%B9%8E%20Live/</loc>
-    <lastmod>2016-11-23T06:50:07.000Z</lastmod>
-    <data>
-        <display>
-        <title>如何在短时间内掌握一项技能--知乎 Live</title>
-        <pubTime>2016-11-22T10:24:48.000Z</pubTime>
-        
-        <tag>方法论</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-11-23</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/11/20/hexo-%E5%91%BD%E4%BB%A4%E5%8F%8A-Markdown-%E8%AF%AD%E6%B3%95/</loc>
-    <lastmod>2016-11-20T06:58:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo 命令及 Markdown 语法</title>
-        <pubTime>2016-11-20T02:58:50.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>markdown</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-11-20</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/11/17/11-14-11-16-my-way-home/</loc>
-    <lastmod>2016-11-17T11:57:01.000Z</lastmod>
-    <data>
-        <display>
-        <title>11.14-11.16 回家之行</title>
-        <pubTime>2016-11-17T11:53:25.000Z</pubTime>
-        
-        <tag>随笔</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-11-17</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/11/12/%E5%B0%86hexo%E5%8D%9A%E5%AE%A2%E5%90%8C%E6%97%B6%E6%89%98%E7%AE%A1%E5%88%B0%20github%20%E5%92%8C%20coding/</loc>
-    <lastmod>2016-11-13T09:43:01.000Z</lastmod>
-    <data>
-        <display>
-        <title>将hexo博客同时托管到 github 和 coding</title>
-        <pubTime>2016-11-12T13:01:20.000Z</pubTime>
-        
-        <tag>建站</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-11-13</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/11/13/%E8%85%BE%E8%AE%AF%E5%85%AC%E7%9B%8A404%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%94%E5%9B%9E%E8%87%AA%E5%B7%B1%E9%A6%96%E9%A1%B5%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
-    <lastmod>2016-11-13T09:42:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>腾讯公益404页面无法返回自己首页的解决办法</title>
-        <pubTime>2016-11-13T09:23:27.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
+    <lastmod>2016-11-13</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/11/13/%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E4%B8%8E%E8%A7%A3%E6%9E%90/</loc>
-    <lastmod>2016-11-13T07:10:51.000Z</lastmod>
-    <data>
-        <display>
-        <title>域名申请与解析</title>
-        <pubTime>2016-11-13T04:10:36.000Z</pubTime>
-        
-        <tag>建站</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-11-13</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/11/12/%E5%9F%9F%E5%90%8D%E4%B8%8D%E5%8A%A0www%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE?/</loc>
-    <lastmod>2016-11-12T12:52:35.000Z</lastmod>
-    <data>
-        <display>
-        <title>域名不加www无法访问?</title>
-        <pubTime>2016-11-12T12:18:47.000Z</pubTime>
-        
-        <tag>建站</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2016-11-12</lastmod>
+  </url>  <url>
     <loc>http://zhangchuanfeng.me/2016/11/10/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%BB%BA%E5%A5%BD%E5%95%A6%EF%BC%81/</loc>
-    <lastmod>2016-11-11T03:26:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>我的博客建好啦！</title>
-        <pubTime>2016-11-10T11:27:23.000Z</pubTime>
-        
-        <tag>随笔</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
+    <lastmod>2016-11-11</lastmod>
+  </url>
 </urlset>
