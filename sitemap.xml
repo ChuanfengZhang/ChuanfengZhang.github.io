@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhangchuanfeng.me/demo/index.html</loc>
+    
+    <lastmod>2020-05-22T07:52:48.325Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhangchuanfeng.me/about/index.html</loc>
     
     <lastmod>2020-05-22T07:49:57.296Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://zhangchuanfeng.me/404.html</loc>
     
     <lastmod>2020-05-22T07:49:57.203Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhangchuanfeng.me/demo/index.html</loc>
-    
-    <lastmod>2020-05-22T07:49:57.195Z</lastmod>
     
   </url>
   
