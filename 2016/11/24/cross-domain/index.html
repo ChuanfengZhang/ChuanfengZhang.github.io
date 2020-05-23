@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head><meta name="generator" content="Hexo 3.9.0">
+<head>
   <meta charset="utf-8">
   
   <meta name="renderer" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://zhangchuanfeng.me">
   <title>跨域-知识 | 张传峰的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="文章目录：  跨域-知识   跨域-使用 JSONP   跨域-使用 js 文件 跨域-使用 window.name 跨域-使用 Proxy page 或 Cross Frame   什么是跨域？  跨域可简单理解为 JavaScript 同源策略的限制。 什么是同源策略在客户端编程语言中，如JavaScript和ActionScript，同源策略是一个很重要的安全理念，它在保证数据的安全性方面有">
-<meta name="keywords" content="跨域">
 <meta property="og:type" content="article">
 <meta property="og:title" content="跨域-知识">
 <meta property="og:url" content="http://zhangchuanfeng.me/2016/11/24/cross-domain/index.html">
 <meta property="og:site_name" content="张传峰的博客">
 <meta property="og:description" content="文章目录：  跨域-知识   跨域-使用 JSONP   跨域-使用 js 文件 跨域-使用 window.name 跨域-使用 Proxy page 或 Cross Frame   什么是跨域？  跨域可简单理解为 JavaScript 同源策略的限制。 什么是同源策略在客户端编程语言中，如JavaScript和ActionScript，同源策略是一个很重要的安全理念，它在保证数据的安全性方面有">
-<meta property="og:locale" content="default">
+<meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://ww3.sinaimg.cn/large/65e4f1e6jw1fa3gxszn3mj20he0fnmzb.jpg">
-<meta property="og:updated_time" content="2016-11-25T01:28:40.000Z">
+<meta property="article:published_time" content="2016-11-24T12:18:56.000Z">
+<meta property="article:modified_time" content="2016-11-25T01:28:40.000Z">
+<meta property="article:author" content="张传峰">
+<meta property="article:tag" content="跨域">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="跨域-知识">
-<meta name="twitter:description" content="文章目录：  跨域-知识   跨域-使用 JSONP   跨域-使用 js 文件 跨域-使用 window.name 跨域-使用 Proxy page 或 Cross Frame   什么是跨域？  跨域可简单理解为 JavaScript 同源策略的限制。 什么是同源策略在客户端编程语言中，如JavaScript和ActionScript，同源策略是一个很重要的安全理念，它在保证数据的安全性方面有">
 <meta name="twitter:image" content="http://ww3.sinaimg.cn/large/65e4f1e6jw1fa3gxszn3mj20he0fnmzb.jpg">
   
     <link rel="alternative" href="/atom.xml" title="张传峰的博客" type="application/atom+xml">
@@ -39,8 +39,8 @@
 
   
 
-</head>
-</html>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
 <body>
   <div id="container" q-class="show:isCtnShow">
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
@@ -64,7 +64,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/随笔/">随笔</a></li>
+				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 	        
 			</ul>
 		</nav>
@@ -148,7 +148,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 		        
 				</ul>
 			</nav>
@@ -193,8 +193,10 @@
 </ul>
 <hr>
 <h2 id="什么是跨域？"><a href="#什么是跨域？" class="headerlink" title="什么是跨域？"></a>什么是跨域？</h2><p>  跨域可简单理解为 JavaScript 同源策略的限制。</p>
-<h2 id="什么是同源策略"><a href="#什么是同源策略" class="headerlink" title="什么是同源策略"></a>什么是同源策略</h2><p>在客户端编程语言中，如JavaScript和ActionScript，同源策略是一个很重要的安全理念，它在保证数据的安全性方面有着重要的意义。同源策略规定跨域之间的脚本是隔离的，一个域的脚本不能访问和操作另外一个域的绝大部分属性和方法。那么什么叫相同域，什么叫不同的域呢？当两个域具有相同的协议(如http), 相同的端口(如80)，相同的host（如<a href="http://www.example.org)，那么我们就可以认为它们是相同的域。" target="_blank" rel="noopener">www.example.org)，那么我们就可以认为它们是相同的域。</a><br><a id="more"></a><br>比如 <a href="http://www.example.org/index.html和http://www.example.org/sub/index.html是同域，而http://www.example.org" target="_blank" rel="noopener">http://www.example.org/index.html和http://www.example.org/sub/index.html是同域，而http://www.example.org</a>, <a href="https://www.example.org" target="_blank" rel="noopener">https://www.example.org</a>, <a href="http://www.example.org:8080" target="_blank" rel="noopener">http://www.example.org:8080</a>, <a href="http://sub.example.org中的任何两个都将构成跨域。同源策略还应该对一些特殊情况做处理，比如限制file协议下脚本的访问权限。本地的HTML文件在浏览器中是通过file协议打开的，如果脚本能通过file协议访问到硬盘上其它任意文件，就会出现安全隐患，目前IE8还有这样的隐患。" target="_blank" rel="noopener">http://sub.example.org中的任何两个都将构成跨域。同源策略还应该对一些特殊情况做处理，比如限制file协议下脚本的访问权限。本地的HTML文件在浏览器中是通过file协议打开的，如果脚本能通过file协议访问到硬盘上其它任意文件，就会出现安全隐患，目前IE8还有这样的隐患。</a><br>受到同源策略的影响，跨域资源共享就会受到制约。但是随着人们的实践和浏览器的进步，目前在跨域请求的技巧上，有很多宝贵经验的沉淀和积累。这里我把跨域资源共享分成两种，一种是单向的数据请求，还有一种是双向的消息通信。</p>
-<p> 详细情况请看下表：<br> <img src="http://ww3.sinaimg.cn/large/65e4f1e6jw1fa3gxszn3mj20he0fnmzb.jpg" alt></p>
+<h2 id="什么是同源策略"><a href="#什么是同源策略" class="headerlink" title="什么是同源策略"></a>什么是同源策略</h2><p>在客户端编程语言中，如JavaScript和ActionScript，同源策略是一个很重要的安全理念，它在保证数据的安全性方面有着重要的意义。同源策略规定跨域之间的脚本是隔离的，一个域的脚本不能访问和操作另外一个域的绝大部分属性和方法。那么什么叫相同域，什么叫不同的域呢？当两个域具有相同的协议(如http), 相同的端口(如80)，相同的host（如<a href="http://www.example.org)，那么我们就可以认为它们是相同的域。" target="_blank" rel="noopener">www.example.org)，那么我们就可以认为它们是相同的域。</a></p>
+<a id="more"></a>
+<p>比如 <a href="http://www.example.org/index.html和http://www.example.org/sub/index.html是同域，而http://www.example.org" target="_blank" rel="noopener">http://www.example.org/index.html和http://www.example.org/sub/index.html是同域，而http://www.example.org</a>, <a href="https://www.example.org" target="_blank" rel="noopener">https://www.example.org</a>, <a href="http://www.example.org:8080" target="_blank" rel="noopener">http://www.example.org:8080</a>, <a href="http://sub.example.org中的任何两个都将构成跨域。同源策略还应该对一些特殊情况做处理，比如限制file协议下脚本的访问权限。本地的HTML文件在浏览器中是通过file协议打开的，如果脚本能通过file协议访问到硬盘上其它任意文件，就会出现安全隐患，目前IE8还有这样的隐患。" target="_blank" rel="noopener">http://sub.example.org中的任何两个都将构成跨域。同源策略还应该对一些特殊情况做处理，比如限制file协议下脚本的访问权限。本地的HTML文件在浏览器中是通过file协议打开的，如果脚本能通过file协议访问到硬盘上其它任意文件，就会出现安全隐患，目前IE8还有这样的隐患。</a><br>受到同源策略的影响，跨域资源共享就会受到制约。但是随着人们的实践和浏览器的进步，目前在跨域请求的技巧上，有很多宝贵经验的沉淀和积累。这里我把跨域资源共享分成两种，一种是单向的数据请求，还有一种是双向的消息通信。</p>
+<p> 详细情况请看下表：<br> <img src="http://ww3.sinaimg.cn/large/65e4f1e6jw1fa3gxszn3mj20he0fnmzb.jpg" alt=""></p>
 <h2 id="单向跨域"><a href="#单向跨域" class="headerlink" title="单向跨域"></a>单向跨域</h2><h3 id="JSONP"><a href="#JSONP" class="headerlink" title="JSONP"></a>JSONP</h3><p>JSONP (JSON with Padding)是一个简单高效的跨域方式，HTML中的script标签可以加载并执行其他域的JavaScript，于是我们可以通过script标记来动态加载其他域的资源。例如我要从域A的页面pageA加载域B的数据，那么在域B的页面pageB中我以JavaScript的形式声明pageA 需要的数据，然后在pageA中用script标签把pageB加载进来，那么pageB中的脚本就会得以执行。JSONP在此基础上加入了回调函数，pageB加载完之后会执行pageA中定义的函数，所需要的数据会以参数的形式传递给该函数。JSONP易于实现，但是也会存在一些安全隐患，如果第三方的脚本随意地执行，那么它就可以篡改页面内容，截获敏感数据。但是在受信任的双方传递数据，JSONP是非常合适的选择。</p>
 <h3 id="Flash-URLLoader"><a href="#Flash-URLLoader" class="headerlink" title="Flash URLLoader"></a>Flash URLLoader</h3><p>Flash有自己的一套安全策略，服务器可以通过crossdomain.xml文件来声明能被哪些域的SWF文件访问，SWF也可以通过API来确定自身能被哪些域的SWF加载。当跨域访问资源时，例如从域<a href="http://www.a.com请求域www.b.com上的数据，我们可以借助Flash来发送" target="_blank" rel="noopener">www.a.com请求域www.b.com上的数据，我们可以借助Flash来发送</a> HTTP请求。首先，修改域<a href="http://www.b.com上的crossdomain.xml(一般存放在根目录，如果没有需要手动创建)" target="_blank" rel="noopener">www.b.com上的crossdomain.xml(一般存放在根目录，如果没有需要手动创建)</a> ，把<a href="http://www.a.com加入到白名单。其次，通过Flash" target="_blank" rel="noopener">www.a.com加入到白名单。其次，通过Flash</a> URLLoader发送HTTP请求，最后，通过Flash API把响应结果传递给JavaScript。Flash URLLoader是一种很普遍的跨域解决方案，不过需要支持iOS的话，这个方案就无能为力了。</p>
 <h3 id="Access-Control"><a href="#Access-Control" class="headerlink" title="Access Control"></a>Access Control</h3><p>Access Control是比较超越的跨域方式，目前只在很少的浏览器中得以支持，这些浏览器可以发送一个跨域的HTTP请求（Firefox, Google Chrome等通过XMLHTTPRequest实现，IE8下通过XDomainRequest实现），请求的响应必须包含一个Access- Control-Allow-Origin的HTTP响应头，该响应头声明了请求域的可访问权限。例如<a href="http://www.a.com对www.b.com下的" target="_blank" rel="noopener">www.a.com对www.b.com下的</a> asset.php发送了一个跨域的HTTP请求，那么asset.php必须加入如下的响应头：header(“Access-Control-Allow-Origin: <a href="http://www.a.com%22);%7f/" target="_blank" rel="noopener">http://www.a.com%22);%7f/</a></p>
@@ -205,9 +207,9 @@
 <h3 id="Flash-LocalConnection"><a href="#Flash-LocalConnection" class="headerlink" title="Flash LocalConnection"></a>Flash LocalConnection</h3><p>页面上的双向通信也可以通过Flash来解决，Flash API中有LocalConnection这个类，该类允许两个SWF之间通过进程通信，这时SWF可以播放在独立的Flash Player或者AIR中，也可以嵌在HTML页面或者是PDF中。遵循这个通信原则，我们可以在不同域的HTML页面各自嵌套一个SWF来达到相互传递数据的目的了。SWF通过LocalConnection交换数据是很快的，但是每次的数据量有40kb的大小限制。用这种方式来跨域通信过于复杂，而且需要了2个SWF文件，实用性不强。</p>
 <h3 id="window-postMessage"><a href="#window-postMessage" class="headerlink" title="window.postMessage"></a>window.postMessage</h3><p>window.postMessage是HTML5定义的一个很新的方法，这个方法可以很方便地跨window通信。由于它是一个很新的方法，所以在很旧和比较旧的浏览器中都无法使用。</p>
 <h3 id="Cross-Frame"><a href="#Cross-Frame" class="headerlink" title="Cross Frame"></a>Cross Frame</h3><p>Cross Frame是FIM的一个变种，它借助了一个空白的iframe，不会产生多余的浏览器历史记录，也不需要轮询URL的改变，在可用性和性能上都做了很大的改观。它的基本原理大致是这样的，假设在域<a href="http://www.a.com上有页面A.html和一个空白代理页面proxyA.html" target="_blank" rel="noopener">www.a.com上有页面A.html和一个空白代理页面proxyA.html</a>, 另一个域<a href="http://www.b.com上有个页面B.html和一个空白代理页面proxyB.html，A.html需要向B.html中发送消息时，页面会创建一个隐藏的iframe" target="_blank" rel="noopener">www.b.com上有个页面B.html和一个空白代理页面proxyB.html，A.html需要向B.html中发送消息时，页面会创建一个隐藏的iframe</a>, iframe的src指向proxyB.html并把message作为URL frag，由于B.html和proxyB.html是同域，所以在iframe加载完成之后，B.html可以获得iframe的URL，然后解析出 message，并移除该iframe。当B.html需要向A.html发送消息时，原理一样。Cross Frame是很好的双向通信方式，而且安全高效，但是它在Opera中无法使用，不过在Opera下面我们可以使用更简单的 window.postMessage来代替。</p>
-<p>本文参考文章：<br><a href>http://www.cnblogs.com/scottckt/archive/2011/11/12/2246531.html</a></p>
-<p><a href>http://www.cnblogs.com/rainman/archive/2011/02/20/1959325.html</a></p>
-<p><a href>http://www.cnblogs.com/cat3/archive/2011/06/15/2081559.html</a></p>
+<p>本文参考文章：<br><a href="">http://www.cnblogs.com/scottckt/archive/2011/11/12/2246531.html</a></p>
+<p><a href="">http://www.cnblogs.com/rainman/archive/2011/02/20/1959325.html</a></p>
+<p><a href="">http://www.cnblogs.com/cat3/archive/2011/06/15/2081559.html</a></p>
 <hr>
 <p>相关文章：</p>
 <p><a href="https://www.cnblogs.com/rainman/archive/2011/02/20/1959325.html" target="_blank" rel="noopener">JavaScript跨域总结与解决办法</a></p>
@@ -376,7 +378,7 @@
         })();
       </script>
       <!-- 多说公共JS代码 end -->
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
     </section>
   
 
@@ -496,14 +498,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Mac</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">快捷键</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
              
@@ -512,27 +506,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">RequireJS</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Webstorm</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">建站</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">方法论</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">跨域</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Mac</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">快捷键</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -545,6 +527,26 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">读书笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">建站</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Webstorm</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">RequireJS</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">方法论</a>
               </li>
             
             <div class="clearfix"></div>

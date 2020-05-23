@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head><meta name="generator" content="Hexo 3.9.0">
+<head>
   <meta charset="utf-8">
   
   <meta name="renderer" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://zhangchuanfeng.me">
   <title>（转）《图解 HTTP》读书笔记 | 张传峰的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="本文转载自 刘健超(Jc)’s Blog  第一章HTTP（HyperText Transfer Protocol，超文转移协议，超文本传输协议的译法并不严谨。） 网络基础 TCP/IPTCP/IP 协议族TCP/IP 协议族是互联网相关联的协议的集合。从电缆的规格到IP地址的选定方法、寻找异地用户的方法、双方建立通信的顺序，以及Web页面显示需要处理的步骤，等等。而HTTP是属于它内部的一个子">
-<meta name="keywords" content="HTTP,读书笔记">
+  <meta name="description" content="本文转载自 刘健超(Jc)’s Blog  第一章HTTP（HyperText Transfer Protocol，超文转移协议，超文本传输协议的译法并不严谨。） 网络基础 TCP&#x2F;IPTCP&#x2F;IP 协议族TCP&#x2F;IP 协议族是互联网相关联的协议的集合。从电缆的规格到IP地址的选定方法、寻找异地用户的方法、双方建立通信的顺序，以及Web页面显示需要处理的步骤，等等。而HTTP是属于它内部的一个子">
 <meta property="og:type" content="article">
 <meta property="og:title" content="（转）《图解 HTTP》读书笔记">
 <meta property="og:url" content="http://zhangchuanfeng.me/2016/12/02/illustration-http-notes/index.html">
 <meta property="og:site_name" content="张传峰的博客">
-<meta property="og:description" content="本文转载自 刘健超(Jc)’s Blog  第一章HTTP（HyperText Transfer Protocol，超文转移协议，超文本传输协议的译法并不严谨。） 网络基础 TCP/IPTCP/IP 协议族TCP/IP 协议族是互联网相关联的协议的集合。从电缆的规格到IP地址的选定方法、寻找异地用户的方法、双方建立通信的顺序，以及Web页面显示需要处理的步骤，等等。而HTTP是属于它内部的一个子">
-<meta property="og:locale" content="default">
+<meta property="og:description" content="本文转载自 刘健超(Jc)’s Blog  第一章HTTP（HyperText Transfer Protocol，超文转移协议，超文本传输协议的译法并不严谨。） 网络基础 TCP&#x2F;IPTCP&#x2F;IP 协议族TCP&#x2F;IP 协议族是互联网相关联的协议的集合。从电缆的规格到IP地址的选定方法、寻找异地用户的方法、双方建立通信的顺序，以及Web页面显示需要处理的步骤，等等。而HTTP是属于它内部的一个子">
+<meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-9.jpg">
 <meta property="og:image" content="http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-10.jpg">
 <meta property="og:image" content="http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-12.jpg">
@@ -31,10 +30,12 @@
 <meta property="og:image" content="http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-%E4%BB%A3%E7%90%86.png">
 <meta property="og:image" content="http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-184.jpg">
 <meta property="og:image" content="http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-15.jpg">
-<meta property="og:updated_time" content="2016-12-15T13:31:39.000Z">
+<meta property="article:published_time" content="2016-12-02T13:22:54.000Z">
+<meta property="article:modified_time" content="2016-12-15T13:31:39.000Z">
+<meta property="article:author" content="张传峰">
+<meta property="article:tag" content="HTTP">
+<meta property="article:tag" content="读书笔记">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="（转）《图解 HTTP》读书笔记">
-<meta name="twitter:description" content="本文转载自 刘健超(Jc)’s Blog  第一章HTTP（HyperText Transfer Protocol，超文转移协议，超文本传输协议的译法并不严谨。） 网络基础 TCP/IPTCP/IP 协议族TCP/IP 协议族是互联网相关联的协议的集合。从电缆的规格到IP地址的选定方法、寻找异地用户的方法、双方建立通信的顺序，以及Web页面显示需要处理的步骤，等等。而HTTP是属于它内部的一个子">
 <meta name="twitter:image" content="http://7xq7nb.com1.z0.glb.clouddn.com/graphical-http-9.jpg">
   
     <link rel="alternative" href="/atom.xml" title="张传峰的博客" type="application/atom+xml">
@@ -53,8 +54,8 @@
 
   
 
-</head>
-</html>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
 <body>
   <div id="container" q-class="show:isCtnShow">
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
@@ -78,7 +79,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/随笔/">随笔</a></li>
+				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 	        
 			</ul>
 		</nav>
@@ -162,7 +163,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 		        
 				</ul>
 			</nav>
@@ -282,39 +283,37 @@
 <table>
 <thead>
 <tr>
-<th style="text-align:center"></th>
-<th style="text-align:center">类别</th>
-<th style="text-align:center">原因短语</th>
+<th align="center"></th>
+<th align="center">类别</th>
+<th align="center">原因短语</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">1XX</td>
-<td style="text-align:center">Informational(信息性状态码)</td>
-<td style="text-align:center">接收的请求正在处理</td>
+<tbody><tr>
+<td align="center">1XX</td>
+<td align="center">Informational(信息性状态码)</td>
+<td align="center">接收的请求正在处理</td>
 </tr>
 <tr>
-<td style="text-align:center">2XX</td>
-<td style="text-align:center">Success（成功状态码）</td>
-<td style="text-align:center">请求正常处理完毕</td>
+<td align="center">2XX</td>
+<td align="center">Success（成功状态码）</td>
+<td align="center">请求正常处理完毕</td>
 </tr>
 <tr>
-<td style="text-align:center">3XX</td>
-<td style="text-align:center">Redirection（重定向状态码）</td>
-<td style="text-align:center">需要进行附加操作以完成请求</td>
+<td align="center">3XX</td>
+<td align="center">Redirection（重定向状态码）</td>
+<td align="center">需要进行附加操作以完成请求</td>
 </tr>
 <tr>
-<td style="text-align:center">4XX</td>
-<td style="text-align:center">Client Error（客户端错误状态码）</td>
-<td style="text-align:center">服务器无法处理请求</td>
+<td align="center">4XX</td>
+<td align="center">Client Error（客户端错误状态码）</td>
+<td align="center">服务器无法处理请求</td>
 </tr>
 <tr>
-<td style="text-align:center">5XX</td>
-<td style="text-align:center">Server Error（服务器错误状态码）</td>
-<td style="text-align:center">服务器处理请求出错</td>
+<td align="center">5XX</td>
+<td align="center">Server Error（服务器错误状态码）</td>
+<td align="center">服务器处理请求出错</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>只要遵守状态码类别的定义，即使改变 <a href="https://datatracker.ietf.org/doc/rfc2616/" target="_blank" rel="noopener">RFC2616</a> 中定义的状态码，或服务器端自行创建状态码都没问题。</p>
 <h3 id="常用的状态码14种："><a href="#常用的状态码14种：" class="headerlink" title="常用的状态码14种："></a>常用的状态码14种：</h3><h4 id="2XX-成功"><a href="#2XX-成功" class="headerlink" title="2XX 成功"></a>2XX 成功</h4><ul>
 <li>200 OK：请求被正常处理</li>
@@ -385,8 +384,7 @@
 <th>说明</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>Cache-Control</td>
 <td>控制缓存行为</td>
 </tr>
@@ -422,8 +420,7 @@
 <td>Warning</td>
 <td>错误通知</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>Cache-Control的no-cache指令代表不缓存过期的资源，而不是不缓存。no-store才是真正不进行缓存。<br>Connection首部字段的值为close时，代表服务器想明确断开连接（HTTP/1.1默认都是持久连接）</p>
 <p>请求首部字段</p>
 <table>
@@ -433,8 +430,7 @@
 <th>说明</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>Accept</td>
 <td>用户代理可处理的媒体类型</td>
 </tr>
@@ -510,8 +506,7 @@
 <td>User-Agent</td>
 <td>HTTP客户端程序的信息</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>该表的Accept*字段都可以指定权重q（0-1）。当服务器提供多种内容时，将会首先返回权重最高的。<br>If-xxx请求首部字段都称为条件请求，服务器接收到附带条件的请求后，只有判断指定条件为真时，才回执行请求。<br>Referer 的正确拼写应该是Referrer。当直接在浏览器的地址栏输入URI时，或处于安全考虑时，可不发该首部字段。</p>
 <p>响应首部字段</p>
 <table>
@@ -521,8 +516,7 @@
 <th>说明</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>Accept-Ranges</td>
 <td>是否接受字节范围请求</td>
 </tr>
@@ -558,8 +552,7 @@
 <td>WWW-Authenticate</td>
 <td>服务器对客户端的认证信息</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>几乎所有浏览器在接收到包含首部字段Location的响应后，都会强制性地尝试对已提示的重定向资源的访问。</p>
 <p>实体首部字段</p>
 <table>
@@ -569,8 +562,7 @@
 <th>说明</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>Allow</td>
 <td>资源可支持的HTTP方法</td>
 </tr>
@@ -610,8 +602,7 @@
 <td>Last-Modified</td>
 <td>资源的最后修改日期时间</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>为Cookie服务的首部字段</p>
 <table>
 <thead>
@@ -621,8 +612,7 @@
 <th>首部类型</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>Set-Cookie</td>
 <td>开始状态管理所使用的Cookie信息</td>
 <td>响应首部字段</td>
@@ -632,8 +622,7 @@
 <td>服务器接收到的Cookie信息</td>
 <td>请求首部字段</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>Set-Cookie字段的属性</p>
 <table>
 <thead>
@@ -642,8 +631,7 @@
 <th>说明</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>NAME=VALUE</td>
 <td>赋予Cookie的名称和其值（必需项）</td>
 </tr>
@@ -667,8 +655,7 @@
 <td>HttpOnly</td>
 <td>加以限制，使Cookie不能被JavaSript脚本访问</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>expires：一旦Cookie从服务器端发送至客户端，服务器端就不存在可以显示删除Cookie的方法。但可通过覆盖已过期的Cookie，实现对客户端Cookie的实质性删除操作。<br>path：用来指定cookie被发送到服务器的哪一个目录路径下（即被服务器哪个路径接收cookie），其中”/“指的是站点根目录，可在同一台服务器（即使有多个应用）内共享该cookie。</p>
 <h2 id="第七章-确保Web安全的HTTPS"><a href="#第七章-确保Web安全的HTTPS" class="headerlink" title="第七章 确保Web安全的HTTPS"></a>第七章 确保Web安全的HTTPS</h2><h3 id="HTTP的确定"><a href="#HTTP的确定" class="headerlink" title="HTTP的确定"></a>HTTP的确定</h3><ul>
 <li>通信使用明文可能会被窃听</li>
@@ -938,7 +925,7 @@
         })();
       </script>
       <!-- 多说公共JS代码 end -->
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
     </section>
   
 
@@ -1058,14 +1045,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Mac</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">快捷键</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
              
@@ -1074,27 +1053,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">RequireJS</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Webstorm</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">建站</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">方法论</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">跨域</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Mac</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">快捷键</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1107,6 +1074,26 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">读书笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">建站</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Webstorm</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">RequireJS</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">方法论</a>
               </li>
             
             <div class="clearfix"></div>
